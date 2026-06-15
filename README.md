@@ -1,4 +1,5 @@
 # About
+This is an updated version of Blue-Shift that allows the HUD to be scaled up just like the 25th Anniversary version of Half-Life. I have already produced assets for this and will be included with the proper release.
 
 [Half-Life Updated](https://github.com/twhl-community/halflife-updated), [Opposing Force Updated](https://github.com/twhl-community/halflife-op4-updated) and [Blue Shift Updated](https://github.com/twhl-community/halflife-bs-updated) are repositories that provide updated versions of the Half-Life SDK, targeted to the 3 Half-Life 1 PC games officially available.
 
