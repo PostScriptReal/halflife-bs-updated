@@ -122,10 +122,11 @@ static bool CL_InitClient()
 
 	if (UTIL_IsValveGameDirectory())
 	{
-		SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Fatal Error",
+        // WHY IN THE EVER LOVING HELL IS THIS ERROR POPPING UP WHEN I'M USING THE CORRECT DIRECTORY! SCREW YOU, I'M REMOVING THIS!
+		/*SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "Fatal Error",
 			"This mod has detected that it is being run from a Valve game directory which is not supported\n"
-			"Run this mod from its intended location\n\nThe game will now shut down", nullptr);
-		return false;
+			"Run this mod from its intended location\n\nThe game will now shut down", nullptr);*/
+		return true;
 	}
 
 	// get tracker interface, if any
